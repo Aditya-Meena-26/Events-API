@@ -1,0 +1,4 @@
+SELECT e.id, e.name, e.date, e.total_tickets, e.tickets_sold
+FROM events_event e
+ORDER BY e.tickets_sold DESC
+LIMIT 3;
